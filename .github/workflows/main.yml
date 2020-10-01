@@ -19,6 +19,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+       # Install your dependencies
       - run: npm ci
-      - run: npx eslint .
+
+      # Run ESLint
+      - uses: eslint/github-action@v0
 
