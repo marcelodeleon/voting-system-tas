@@ -7,7 +7,6 @@
     "lint:css": "stylelint **/*.css",
     "lint:js": "eslint .",
     "lint": "npm run lint:js && npm run lint:css",
-    "eslint:github-action": "eslint src/",
     "test": "jest"
   },
   "repository": {
