@@ -4,5 +4,8 @@
     "jest": true,
     "es6": true,
     "node": true
+  },
+  "rules": {
+    "func-names": "off"
   }
 }
